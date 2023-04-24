@@ -1,0 +1,7 @@
+15
+S aA dE
+A aB aS
+B bC
+C bD bB
+D cD λ
+E λ
