@@ -1,0 +1,18 @@
+digraph finite_state_machine {
+            fontname="Helvetica, Arial, sans-serif"
+            node[fontname="Helvetica,Arial,sans-serif"]
+            edge[fontname="Helvetica,Arial,sans-serif"]
+            rankdir=LR;
+            node [shape = doublecircle]; q0q1q6q7 q9 q11 q1q6q7;
+node [shape = circle];
+q0q1q6q7 -> q2q8 [label = "a"];
+q0q1q6q7 -> q10q4 [label = "c"];
+q2q8 -> q3 [label = "b"];
+q2q8 -> q9 [label = "c"];
+q10q4 -> q11 [label = "a"];
+q10q4 -> q5 [label = "b"];
+q3 -> q1q6q7 [label = "a"];
+q5 -> q1q6q7 [label = "c"];
+q1q6q7 -> q2q8 [label = "a"];
+q1q6q7 -> q10q4 [label = "c"];
+}
