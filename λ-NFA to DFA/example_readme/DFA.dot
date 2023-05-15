@@ -1,0 +1,12 @@
+digraph finite_state_machine {
+        fontname="Helvetica, Arial, sans-serif"
+        node[fontname="Helvetica,Arial,sans-serif"]
+        edge[fontname="Helvetica,Arial,sans-serif"]
+        rankdir=LR;
+        node [shape = doublecircle];023456 0123456 23456;node [shape = circle];023456 -> 0123456 [label = "a"];
+023456 -> 23456 [label = "b"];
+0123456 -> 0123456 [label = "a"];
+0123456 -> 23456 [label = "b"];
+23456 -> 23456 [label = "a"];
+23456 -> 23456 [label = "b"];
+}
